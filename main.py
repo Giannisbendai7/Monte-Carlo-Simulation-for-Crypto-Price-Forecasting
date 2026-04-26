@@ -1,4 +1,6 @@
-from src.simulation import run_simulation
+import sys
+import os
 
-if __name__ == "__main__":
-    run_simulation()
+sys.path.append(os.path.dirname(__file__))
+
+from src.simulation import run_simulation
