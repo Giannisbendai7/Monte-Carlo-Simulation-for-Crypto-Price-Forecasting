@@ -1,2 +1,5 @@
-- name: Run script
-  run: python app.py
+def main():
+    print("App running")
+
+if __name__ == "__main__":
+    main()
