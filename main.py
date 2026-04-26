@@ -1,7 +1,5 @@
-
-
 def run_simulation():
-    print("running monte carlo simulation")
+    print("Monte Carlo simulation running")
 
 if __name__ == "__main__":
     run_simulation()
